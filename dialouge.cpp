@@ -1,0 +1,141 @@
+#include "dialouge.h"
+#include "Windows.h"
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+using namespace std;
+
+Dialouge::Dialouge() {
+    // Constructor implementation
+}
+
+void Dialouge::opening_scene() {
+    // Starting Scene
+    cout << "[You awake sitting on an Imperial wagon driving you and three other prisoners down a snowy mountain pass.]" << endl;
+    Sleep(2000);
+    cout << "[You are all seated and bound; the man dressed in fine apparel has a cloth wrapped around his mouth.]" << endl;
+    Sleep(2000);
+    cout << "Ralof: Hey, you. You're finally awake." << endl;
+    Sleep(2000);
+    cout << "Ralof: You were trying to cross the border, right?" << endl;
+    Sleep(2000);
+    cout << "Ralof: Walked right into that Imperial ambush, same as us, and that thief over there." << endl;
+    Sleep(2000);
+    cout << "Lokir: Darn you Stormcloaks. Skyrim was fine until you came along." << endl;
+    Sleep(2000);
+    cout << "Lokir: If they hadn't been looking for you, I could've stolen that horse and been half way to Hammerfell." << endl;
+    Sleep(2000);
+    cout << "Lokir: You there." << endl;
+    Sleep(2000);
+    cout << "Lokir: You and me - we shouldn't be here. It's these Stormcloaks the Empire wants." << endl;
+    Sleep(2000);
+    cout << "Ralof: We're all brothers and sisters in binds now, thief." << endl;
+    Sleep(2000);
+    cout << "You hear a Imperial Solder yell from the front of the wagon: Shut up back there!" << endl;
+    Sleep(2000);
+    cout << "[Lokir looks at the gagged man.]" << endl;
+    Sleep(2000);
+    cout << "Lokir: And what's wrong with him?" << endl;
+    Sleep(2000);
+    cout << "Ralof: Watch your tongue! You're speaking to Ulfric Stormcloak, the true High King." << endl;
+    Sleep(2000);
+    cout << "Lokir: Ulfric? The Jarl of Windhelm? You're the leader of the rebellion." << endl;
+    Sleep(2000);
+    cout << "Lokir: But if they captured you... Oh gods, where are they taking us?" << endl;
+    Sleep(2000);
+    cout << "Ralof: I don't know where we're going, but Sovngarde awaits." << endl;
+    Sleep(2000);
+    cout << "Lokir: No, this can't be happening. This isn't happening." << endl;
+    Sleep(2000);
+    cout << "Ralof: Hey, what village are you from, horse thief?" << endl;
+    Sleep(2000);
+    cout << "Lokir: Why do you care?" << endl;
+    Sleep(2000);
+    cout << "Ralof: A Nord's last thoughts should be of home." << endl;
+    Sleep(2000);
+    cout << "Lokir: Rorikstead. I'm... I'm from Rorikstead." << endl;
+    Sleep(2000);
+    cout << "[You approach the village of Helgen. A soldier calls out to the lead wagon.]" << endl;
+    Sleep(2000);
+    cout << "Imperial Soldier: General Tullius, sir! The headsman is waiting!" << endl;
+    Sleep(2000);
+    cout << "General Tullius: Good. Let's get this over with." << endl;
+    Sleep(2000);
+    cout << "Lokir: Shor, Mara, Dibella, Kynareth, Akatosh. Divines, please help me!" << endl;
+    Sleep(2000);
+    cout << "Ralof: Look at him, General Tullius the Military Governor. And it looks like the Thalmor are with him." << endl;
+    Sleep(2000);
+    cout << "Ralof: Darn elves. I bet they had something to do with this." << endl;
+    Sleep(2000);
+    cout << "Ralof: This is Helgen. I used to be sweet on a girl from here." << endl;
+    Sleep(2000);
+    cout << "Ralof: Wonder if Vilod is still making that mead with juniper berries mixed in." << endl;
+    Sleep(2000);
+    cout << "Ralof: Funny... when I was a boy, Imperial walls and towers used to make me feel so safe." << endl;
+    Sleep(2000);
+    cout << "[A man and son watch the prisoners pull into town.]" << endl;
+    Sleep(2000);
+    cout << "Haming: Who are they, daddy? Where are they going?" << endl;
+    Sleep(2000);
+    cout << "Torolf: You need to go inside, little cub." << endl;
+    Sleep(2000);
+    cout << "Haming: Why? I want to watch the soldiers." << endl;
+    Sleep(2000);
+    cout << "Torolf: Inside the house. Now." << endl;
+    Sleep(2000);
+    cout << "[The wagon stops near the chopping block.]" << endl;
+    Sleep(2000);
+    cout << "Imperial Soldier: Whoa." << endl;
+    Sleep(2000);
+    cout << "Lokir: Why are they stopping?" << endl;
+    Sleep(2000);
+    cout << "Ralof: Why do you think?" << endl;
+    Sleep(2000);
+    cout << "Ralof: End of the line." << endl;
+    Sleep(2000);
+    cout << "Ralof: Let's go. Shouldn't keep the gods waiting for us." << endl;
+    Sleep(2000);
+    cout << "[You and the other men stand up and start to walk off the wagon, you are last]" << endl;
+    Sleep(2000);
+    cout << "Lokir: No! Wait! We're not rebels!" << endl;
+    Sleep(2000);
+    cout << "Ralof: Face your death with some courage, thief." << endl;
+    Sleep(2000);
+    cout << "Lokir: You've got to tell them! We weren't with you! This is a mistake!" << endl;
+    Sleep(2000);
+    cout << "Imperial Captain: Step towards the block when we call your name. One at a time." << endl;
+    Sleep(2000);
+    cout << "Ralof: Empire loves their darn lists." << endl;
+    Sleep(2000);
+    cout << "Hadvar: Ulfric Stormcloak. Jarl of Windhelm." << endl;
+    Sleep(2000);
+    cout << "[Ulfric walks towards the chopping block, which is to the left]" << endl;
+    Sleep(2000);
+    cout << "Ralof: It has been an honor, Jarl Ulfric." << endl;
+    Sleep(2000);
+    cout << "Hadvar: Ralof of Riverwood." << endl;
+    Sleep(2000);
+    cout << "[Ralof walks towards the chopping block]" << endl;
+    Sleep(2000);
+    cout << "Hadvar: Lokir of Rorikstead." << endl;
+    Sleep(2000);
+    cout << "Lokir: No, I'm not a rebel. You can't do this!" << endl;
+    Sleep(2000);
+    cout << "[Lokir begins to run forward]" << endl;
+    Sleep(2000);
+    cout << "Captain: Halt!" << endl;
+    Sleep(2000);
+    cout << "Lokir: You're not going to kill me!" << endl;
+    Sleep(2000);
+    cout << "[Lokir runs past the guards]" << endl;
+    Sleep(2000);
+    cout << "Captain: Archers!" << endl;
+    Sleep(2000);
+    cout << "[At the Captains command the archers let loose their arrows and Lokir is shot to the ground]" << endl;
+    Sleep(2000);
+    cout << "Captain: Anyone else feel like running?" << endl;
+    Sleep(2000);
+    cout << "Hadvar: Wait. You there. Step forward. Who are you?" << endl;
+    Sleep(2000);
+    cout << "[You walk forward and are now able to create you character]" << endl;
+}
